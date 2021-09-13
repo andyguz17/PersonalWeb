@@ -1,1 +1,3 @@
-<app-button [text]="'app.buttons.login' | translate"></app-button>
+<app-button 
+  (event)="execute()"
+  [text]="'app.buttons.login' | translate"></app-button>

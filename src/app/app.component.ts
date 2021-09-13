@@ -10,4 +10,8 @@ export class AppComponent {
   constructor(private translation: TranslationService) {
     this.translation.useLanguage('es');
   }
+
+  execute() {
+    console.log('hello world');
+  }
 }
