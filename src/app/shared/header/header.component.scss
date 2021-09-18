@@ -9,7 +9,8 @@
   height: 80px;
   justify-content: space-between;
   padding: 0px 60px;
-  position: absolute;
+  position: sticky;
+  top: 0;
   width: 100%;
   z-index: 999;
 

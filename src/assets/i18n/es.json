@@ -10,6 +10,10 @@
       "work": "Trabajos",
       "contact": "Contacto",
       "login": "Ingresar"
+    },
+    "home": {
+      "titleT": "Desarrollador y",
+      "titleB": "Analista de datos"
     }
   }
 }

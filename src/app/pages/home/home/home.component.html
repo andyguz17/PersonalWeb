@@ -1,1 +1,13 @@
 <img id="home-background" src="../../../../assets/Images/background.png">
+
+<div class="home-container">
+  <div class="home-title">
+    <app-underline width="270px" padding="5px 0px" fontSize="36px" [text]="(translate$ | async)?.titleT">
+    </app-underline>
+    <app-underline width="260px" padding="5px 0px" fontSize="36px" [text]="(translate$ | async)?.titleB">
+    </app-underline>
+  </div>
+  <div class="home-resume">
+    {{(translate$ | async)?.resume}}
+  </div>
+</div>
