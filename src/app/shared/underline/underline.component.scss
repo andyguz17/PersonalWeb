@@ -1,0 +1,7 @@
+@import "../../../theme/color-variables.scss";
+
+.underline-text {
+  border-bottom: solid 2px $color-yellow;
+  color: $color-dark;
+  text-align: center;
+}

@@ -1,0 +1,31 @@
+@import "../../../theme/color-variables.scss";
+
+.header-container {
+  align-items: center;
+  background-color: transparent;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  justify-content: space-between;
+  padding: 0px 60px;
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+    .nav-item {
+      padding: 5px 10px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    .clicked {
+      background-color: $color-yellow;
+    }
+  }
+}

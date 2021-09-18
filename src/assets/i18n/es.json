@@ -2,6 +2,14 @@
   "app": {
     "buttons": {
       "login": "Ingresar"
+    },
+    "navbar": {
+      "home": "Inicio",
+      "blog": "Blog",
+      "courses": "Cursos",
+      "work": "Trabajos",
+      "contact": "Contacto",
+      "login": "Ingresar"
     }
   }
 }

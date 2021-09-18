@@ -1,0 +1,23 @@
+<div class="header-container">
+  <img src="../../../assets/Images/logo.svg">
+  <div class="navbar">
+    <div [routerLink]="['/']" [class]="clicked == 0 ? 'nav-item clicked':'nav-item'">
+      {{(translation$ | async)?.home}}
+    </div>
+    <div [routerLink]="['/blog']" [class]="clicked == 1 ? 'nav-item clicked':'nav-item'">
+      {{(translation$ | async)?.blog}}
+    </div>
+    <div [routerLink]="['/courses']" [class]="clicked == 2 ? 'nav-item clicked':'nav-item'">
+      {{(translation$ | async)?.courses}}
+    </div>
+    <div [routerLink]="['/work']" [class]="clicked == 3 ? 'nav-item clicked':'nav-item'">
+      {{(translation$ | async)?.work}}
+    </div>
+    <div [routerLink]="['/contact']" [class]="clicked == 4 ? 'nav-item clicked':'nav-item'">
+      {{(translation$ | async)?.contact}}
+    </div>
+    <div [routerLink]="['/login']" [class]="clicked == 5 ? 'nav-item clicked':'nav-item'">
+      {{(translation$ | async)?.login}}
+    </div>
+  </div>
+</div>

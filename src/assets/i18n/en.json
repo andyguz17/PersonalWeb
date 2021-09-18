@@ -1,7 +1,15 @@
 {
   "app": {
     "buttons": {
-      "login": "Log in"
+      "login": "Login"
+    },
+    "navbar": {
+      "home": "Home",
+      "blog": "Blog",
+      "courses": "Courses",
+      "work": "My Work",
+      "contact": "Contact",
+      "login": "Login"
     }
   }
 }

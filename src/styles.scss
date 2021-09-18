@@ -1,3 +1,9 @@
+@import "./theme/color-variables.scss";
+
 * {
+  background-color: $color-dark;
+  box-sizing: border-box;
   font-family: "Montserrat";
+  margin: 0px;
+  padding: 0px;
 }

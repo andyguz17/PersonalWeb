@@ -8,10 +8,6 @@ import { TranslationService } from './services/translation.service';
 })
 export class AppComponent {
   constructor(private translation: TranslationService) {
-    this.translation.useLanguage('es');
-  }
-
-  execute() {
-    console.log('hello world');
+    this.translation.useLanguage('en');
   }
 }

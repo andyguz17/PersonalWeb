@@ -6,9 +6,9 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TranslationService } from './services/translation.service';
 import { SharedModule } from './shared/shared.module';
 import { TranslationComponent } from './translation/translation.component';
-import { TranslationService } from './services/translation.service';
 
 @NgModule({
   declarations: [AppComponent, TranslationComponent],
