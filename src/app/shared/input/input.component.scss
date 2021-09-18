@@ -1,0 +1,10 @@
+@import "../../../theme/color-variables.scss";
+
+.input-wrapper {
+  border: solid $color-yellow 2px;
+  color: $color-light;
+  
+  &:focus {
+    outline: none;
+  }
+}

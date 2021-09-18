@@ -14,6 +14,20 @@
     "home": {
       "titleT": "Desarrollador y",
       "titleB": "Analista de datos"
+    },
+    "login": {
+      "errors": {
+        "email": "Correo invalido",
+        "required": "Este campo es requerido"
+      },
+      "inputs": {
+        "email": "Correo",
+        "password": "Contraseña"
+      },
+      "oauth": {
+        "option": "O Ingrese con",
+        "member": "No tiene una cuenta? Cree una ahora"
+      }
     }
   }
 }

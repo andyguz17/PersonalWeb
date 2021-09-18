@@ -1,3 +1,51 @@
-* {
-  color: white;
+@import "../../../../theme/color-variables.scss";
+
+.login-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 40px;
+
+  app-underline {
+    margin-bottom: 20px;
+  }
+
+  .input-controller {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    .error {
+      color: $color-light;
+      font-size: 14px;
+    }
+  }
+
+  .submit-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 500px;
+  }
+}
+
+.oauth-login {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 150px;
+
+  .social {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .icons-array {
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+    }
+  }
 }

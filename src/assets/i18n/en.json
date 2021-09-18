@@ -15,6 +15,20 @@
       "titleT": "Developer and",
       "titleB": "Data Scientist",
       "resume": "Hey there! I’m Andres Guzman, I created this web to share my work and knowledge, I am a Mechatronics engineer currently working as a Software developer. I like working and researching on deep learning and computer vision related stuff, I’m currently taking a master in Data science. Some of my passions include technology, music, and sports."
+    },
+    "login": {
+      "errors": {
+        "email": "Invalid email",
+        "required": "This field is required"
+      },
+      "inputs": {
+        "email": "Email",
+        "password": "Password"
+      },
+      "oauth": {
+        "option": "Or login with",
+        "member": "Not a member? Sign up now"
+      }
     }
   }
 }

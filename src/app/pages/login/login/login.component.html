@@ -1,1 +1,31 @@
-<p>login works!</p>
+<div class="login-form">
+  <app-underline text="Log in" fontSize="48px"></app-underline>
+
+  <div class="input-controller">
+    <app-input width="500px" [control]="email" [placeholder]="(input$ | async)?.email"></app-input>
+    <div *ngIf="email.errors?.email" class="error">{{(error$ | async)?.email}}</div>
+    <div *ngIf="email.errors?.required" class="error">{{(error$ | async)?.required}}</div>
+  </div>
+
+  <div class="input-controller">
+    <app-input width="500px" [control]="password" type="password" [placeholder]="(input$ | async)?.password">
+    </app-input>
+    <div *ngIf="password.errors?.required" class="error">{{(error$ | async)?.required}}</div>
+  </div>
+
+  <div class="submit-button">
+    <app-button (event)="submit()" text="Log In"></app-button>
+  </div>
+</div>
+
+<div class="oauth-login">
+  <div class="social">
+    <div class="common-text">{{(oauth$ | async)?.option}}</div>
+    <div class="icons-array">
+      <img width="50px" src="../../../../assets/Icons/google.svg" alt="">
+      <img width="50px" src="../../../../assets/Icons/facebook.svg" alt="">
+    </div>
+  </div>
+
+  <div class="common-text">{{(oauth$ | async)?.member}}</div>
+</div>
